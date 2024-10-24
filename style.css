@@ -33,8 +33,8 @@ body {
     /* Расположение элементов в столбец */
     margin-top: 70px;
     /* Отступ сверху */
-    font-family: 'Times New Roman', Times, serif;
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Times New Roman', Times,"Permanent Marker", cursive serif;
+
     
     background: rgba(255, 255, 255, 0.2);
     /* Полупрозрачный белый фон */

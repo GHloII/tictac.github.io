@@ -63,6 +63,38 @@ body {
     margin: auto;
 }
 
-#restartBtn{
+#restartBtn {
     cursor: pointer;
+    
+    /* Размер и отступы */
+    width: 31%;
+    padding: 10px 20px;
+    
+    /* Границы и фон */
+    border: 1px solid #d1d1d1;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    color: #333;
+    
+    /* Текст */
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+
+    /* Переходы для плавных изменений */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Эффект при наведении */
+#restartBtn:hover {
+    background-color: #f1f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Эффект при нажатии */
+#restartBtn:active {
+    background-color: #dcdcdc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
 }
